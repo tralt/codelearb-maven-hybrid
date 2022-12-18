@@ -1,0 +1,21 @@
+{
+	"homePage": {
+		"language": {
+			"englishLang": "English",
+			"vietLang": "Tiếng Việt"
+		},
+		"loginButton": "Login",
+		"registerButton": "Register",
+		"learningMenu": "Learning",
+		"trainingMenu": "Training",
+		"fightsMenu": "Fights",
+		"challengeMenu": "Challenge",
+		"evaluatingMenu": "Evaluating",
+		"discussionMenu": "Discussion",
+		"gameMenu": "Game"
+	},
+	
+	"loginPage": {
+		"loginButton": "Login"
+	}
+}

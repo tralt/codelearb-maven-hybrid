@@ -1,0 +1,22 @@
+{
+	"homePage": {
+		"languages": {
+			"englishLang": "English",
+			"vietLang": "Tiếng Việt"
+		},
+		"loginButton": "Đăng nhập",
+		"registerButton": "Đăng ký",
+		"learningMenu": "Học tập",
+		"trainingMenu": "Luyện tập",
+		"fightsMenu": "Thi đấu",
+		"challengeMenu": "Thử thách",
+		"evaluatingMenu": "Đánh giá",
+		"discussionMenu": "Thảo luận",
+		"gameMenu": "Trò chơi",
+		"sharingMenu": "Chia sẻ"
+	},
+	
+	"loginPage": {
+		"loginButton": "Đăng nhập"
+	}
+}

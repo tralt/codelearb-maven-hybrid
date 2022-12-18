@@ -1,0 +1,27 @@
+{
+	"firstname": "Tra",
+	"lastname": "Thanh",
+	"emailaddress": "trathanhauto",
+	"password": "123456",
+	"date": "10",
+	"month": "August",
+	"year": "1990",
+	"login": {
+		"username": "Tra",
+		"loginpassword": "123456"
+	},
+	"subjects": [
+		{
+			"subjectname": "Math",
+			"subjectpoint": 8.7
+		},
+		{
+			"subjectname": "Biology",
+			"subjectpoint": 8.5
+		},
+		{
+			"subjectname": "Physical",
+			"subjectpoint": 9.0
+		}
+	]
+}

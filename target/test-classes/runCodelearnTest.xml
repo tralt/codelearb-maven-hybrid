@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Codelearn">
+
+<listeners>
+	<listener class-name="commons.MethodListener"></listener>
+	<listener class-name="reportConfig.ReportNGListener" />
+	<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+</listeners>
+
+	<parameter name="envName" value="local"/>
+	<parameter name="serverName" value="user"/>
+	<parameter name="lang" value="english"/>
+  
+  <test name="Run on Chrome">
+   		<parameter name="browser" value="chrome" />
+   		<parameter name="osName" value="OS X" />
+   		<parameter name="osVersion" value="Big Sur" />
+   		<parameter name="ipAddress" value="" />
+   		<parameter name="portNumber" value="" />
+    		<classes>
+    			<class name="codelearn.login.Login_01_User_Login"/>
+   		 	</classes> 
+  </test> 
+</suite> 

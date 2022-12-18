@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Chrome"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.493">
+  <properties />
+  
+  
+            <testcase name="TC_01_Visit_Homepage" time="1.493" classname="codelearn.login.Login_01_User_Login" />
+      
+</testsuite>

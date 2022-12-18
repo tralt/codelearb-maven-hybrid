@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Codelearn]">
+  <parameter name="envName" value="local"/>
+  <parameter name="serverName" value="user"/>
+  <parameter name="lang" value="vietnamese"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.ReportNGListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Run on Chrome(failed)">
+    <parameter name="osVersion" value="Big Sur"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="ipAddress" value=""/>
+    <parameter name="osName" value="OS X"/>
+    <parameter name="portNumber" value=""/>
+    <classes>
+      <class name="codelearn.login.Login_01_User_Login">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="initBeforeSuit"/>
+          <include name="afterClass"/>
+          <include name="TC_01_Visit_Homepage"/>
+        </methods>
+      </class> <!-- codelearn.login.Login_01_User_Login -->
+    </classes>
+  </test> <!-- Run on Chrome(failed) -->
+</suite> <!-- Failed suite [Codelearn] -->
